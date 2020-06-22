@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="ui-g">
+        <div class="ui-g-12 ui-md-3" *ngFor="let produto of produtos" 
+        [ngStyle]="{backgroundColor: produto.id % 2 ? '#A9A9A9' : '#D3D3D3'}">              
+        </div>
+    </div>
+</div>
